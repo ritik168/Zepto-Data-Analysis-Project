@@ -64,3 +64,63 @@ CREATE TABLE zepto (
 
 # 2. Data Import
 Loaded CSV using pgAdmin's import feature.
+
+# 3. 🔍 Data Exploration
+. Counted the total number of records in the dataset
+
+. Viewed a sample of the dataset to understand structure and content
+
+. Checked for null values across all columns
+
+. Identified distinct product categories available in the dataset
+
+. Compared in-stock vs out-of-stock product counts
+
+. Detected products present multiple times, representing different SKUs
+
+# 4. 🧹 Data Cleaning
+. Identified and removed rows where MRP or discounted selling price was zero
+
+. Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
+
+# 5. 📊 Business Insights
+. Found top 10 best-value products based on discount percentage.
+
+. Identified high-MRP products that are currently out of stock
+
+. Estimated potential revenue for each product category
+
+. Filtered expensive products (MRP > ₹500) with minimal discount
+
+. Ranked top 5 categories offering highest average discounts
+
+. Calculated price per gram to identify value-for-money products
+
+. Grouped products based on weight into Low, Medium, and Bulk categories
+
+. Measured total inventory weight per product category
+
+# 🛠️ How to Use This Project
+Clone the repository
+
+git clone https://github.com/amlanmohanty/zepto-SQL-data-analysis-project.git
+cd zepto-SQL-data-analysis-project
+Open zepto_SQL_data_analysis.sql
+
+This file contains:
+
+Table creation
+
+Data exploration
+
+Data cleaning
+
+SQL Business analysis
+
+Load the dataset into pgAdmin or any other PostgreSQL client
+
+Create a database and run the SQL file
+
+Import the dataset (convert to UTF-8 if necessary)
+
+Follow along with the YouTube video for full walkthrough. 👨‍💼

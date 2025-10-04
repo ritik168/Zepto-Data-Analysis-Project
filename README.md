@@ -47,7 +47,8 @@ Here’s a step-by-step breakdown of what we do in this project:
 1. Database & Table Creation
 We start by creating a SQL table with appropriate data types:
 
-```CREATE TABLE zepto (
+```
+CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
   category VARCHAR(120),
   name VARCHAR(150) NOT NULL,
